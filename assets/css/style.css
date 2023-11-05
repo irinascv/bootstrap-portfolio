@@ -1,23 +1,67 @@
 *
 
 :root {
-    --font-family:
 
+ --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+::selection {
+    background-color: rgb(226, 226, 222);
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-size: 1rem; /* 16 px */
-    background-color: #CFCFCF; 
-  
+    font-size: 1rem;
+    background-color: #CFCFCF;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
+  
     .avatar {
         border-radius: 50%;
         overflow: hidden;
     }
 
+/*style hero section text*/
+.hero h2, p {
+    color:black;
+    text-shadow: ;
+}
+
+
+.skills-comment {
+    font-size:smaller;
+}
+
+.list {
+    display: inline;
+}
+
+.work-section {
+    width: 50%;
+    height: 50%;
+}
+
+.about-me-text {
+    text-wrap: wrap;
+}
+
+.card:hover {
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 0 50px black;
+
+}
+
+.contact-li {
+    display: inline;
+}
+
+.contact-section a {
+    text-decoration: none;
+}
     /* footer style */
 
     a {

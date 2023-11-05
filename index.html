@@ -7,6 +7,7 @@
     <title>irinascv: Bootstrap Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css"/>
+
 </head>
 <!--- linked bootstrap via cdn above-->
 
@@ -15,7 +16,7 @@
         <!--- navbar -->
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">— irinacv</a>
+          <a class="navbar-brand" href="#">— irinascv</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -42,13 +43,14 @@
       </nav>
     </header>
 
-
+ 
 <main class="my-5">
-
+<!--- hero section for logo -->
     <section class="hero">
-        <div class="mt-4 p-5 bg-none text-white rounded">
-            <h1>some nice inspirational quote</h1>
-            <p>- copyright whoever said the quote</p>
+        <div class="mt-4 p-5 bg-none rounded">
+            <h2>Irina Siceva<br>
+                 	</h2> <!-- space for future work related lines/inspirational quotes -->
+              <p>— Portfolio</p>
             <img class="avatar" src="assets/images/avatar.png"
             width="150px"
             height="150px">
@@ -56,67 +58,75 @@
     </section>
 <!-- jumbotron is not supported on bootstrap 5, customized with w3 school help, all credits in read me file -->
 
+<!--- content with bootstrap grid -->
 <section class="content" id="about-me">
     <div class="container my-5">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 about-me-text">
+                <hr>
                 <h2>hi! 🌿</h2><br>
     
-            <p>my name is Irina, and I aspire to become a professional Front-End Developer. <br>
+            <p>My name is Irina, and I aspire to become a professional Front-End Developer. <br>
                     
-                    my enduring interest with webpage design motivated me to enroll in a bootcamp, with the ultimate goal of transitioning my current career to the tech industry. <br>
+                    My enduring interest with webpage design motivated me to enroll in a bootcamp, with the ultimate goal of transitioning my current career to the tech industry. <br>
                     
                     I am committed to updating this page regularly to reflect my skills, showcasing both my progress and completed projects. 💪</p>
+                
             </div>
             <div class="col-md-4 skills-list">
-                <p>list of skills i'm looking forward to learn:</p> <br></div>
+                <hr>
+                <ul class="list"><h3>📋 wish list of skills:</h3>
+                <p class="skills-comment"><i>(that I can't wait to acquire from edX bootcamp)</i></p> 
+                    <li class="list"><p>— Git</p></li>
+                    <li class="list"><p>— Html, Css & Javascript</p></li>
+                    <li class="list"><p>— UX and UI Design</p></li>
+                    <li class="list"><p>— Responsive design</p></li>
+                </ul>
+        </div>
         </div>
     </div>
+</section>
+<section id="work">
     <div class="container my-5">
 <div class="row">
-    <div class="col-md-6 my-5">
+    <div class="col-sm-6 my-5 work-section">
         <div class="card">
-            <img src="assets/images/future-project.jpg" class="card-img-top" alt="Monthly calendar and a green plant on the white table">
+            <a href="https://irinascv.github.io/horiseon-management-website/"><img src="assets/images/pexels-horiseon.jpg" class="card-img-top" alt="Group of people working in the office"></a>
             <div class="card-body">
-              <h5 class="card-title">Future Project</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">📰 Horiseon Solutions</h5>
+              <p class="card-text">— This page for Horiseon marketing agency has been designed with accesibility in mind to reach as many potential clients as possible through the use of assistive technologies implemented into the code.</p>
             </div>
           </div>
     </div>
-    <div class="col-md-6 my-5">
+    <div class="col-sm-6 my-5 work-section">
         <div class="card">
-            <img src="assets/images/future-project-1-1.jpg" class="card-img-top" alt="A frame on the white wall with classic ornament">
+            <a href="https://irinascv.github.io/portfolio-page/"><img src="assets/images/future-project-1-1.jpg" class="card-img-top" alt="A frame on the white wall with classic ornament"></a>
             <div class="card-body">
-              <h5 class="card-title">Coming Soon</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">📰 Portfolio page</h5>
+              <p class="card-text">— Serves as my first portfolio, intended to showcase my progress and deployed projects.
+                Portfolio website will undergo frequent updates to ensure it reflects the latest projects.</p>
             </div>
           </div>
     </div>
 </div>
-<div class="row" id="work">
-    <div class="col-md-12 my-5"> 
-        <div class="card">
-        <a href="https://irinascv.github.io/horiseon-management-website/"><img src="assets/images/pexels-horiseon.jpg" class="card-img-top" alt="Group of people working in the office">
-        </a>
-        <div class="card-body">
-          <h5 class="card-title">Horiseon Solutions</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
 </div>
-</div>
+</section>
+
 <div class="row" id="contact">
     <div class="col-md-12 my-5">
-        <h4>get in touch:</h4>
-        <p> 💻 github: <a href="https://github.com/irinascv" target="_blank">irinascv</a> </p>
-        <p> <a href="mailto:irinas1406@gmail.com">📨 send email</a> </p>
+        <div class="d-flex justify-content-center contact-section">
+            <ul><h4>get in touch:</h4><br>
+        <li class="contact-li"><p> 💻 <a href="https://github.com/irinascv" target="_blank">irinascv</a> </p> <br></li>
+        <li class="contact-li"> <p> 📨 <a href="mailto:irinas1406@gmail.com">send email</a> </p></li>
+    </ul>
+    </div>
     </div>
 </div>
 
 </section>
 </main>
 
+<!--- sticky bootrstrap footer -->
 <footer class="footer bg-dark">
     <div class="container">
       <span class="text-muted"> <p>💕 irinascv with guidance of edX © 2023</p>
