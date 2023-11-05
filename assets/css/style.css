@@ -39,18 +39,17 @@ body {
     display: inline;
 }
 
-.work-section {
-    width: 50%;
-    height: 50%;
-}
 
 .about-me-text {
     text-wrap: wrap;
 }
 
-.card:hover {
+.card {
     background-color: transparent;
     border: none;
+}
+
+.card:hover {
     box-shadow: 0 0 50px black;
 
 }
