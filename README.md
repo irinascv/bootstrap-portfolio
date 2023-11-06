@@ -11,7 +11,7 @@ This page serves as a portfolio, intended to showcase my progress in customizing
 
 # Usage
 
-Navigate to **irinascv** [bootstrap portfolio](https://irinascv.github.io/portfolio-page/) <br>
+Navigate to **irinascv** [bootstrap portfolio](https://irinascv.github.io/bootstrap-portfolio/) <br>
 
 Click on **navigation** section and review up-to-date projects.
 
