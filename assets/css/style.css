@@ -58,6 +58,10 @@ body {
     display: inline;
 }
 
+.contact-li a:hover {
+    color:blanchedalmond;
+}
+
 .contact-section a {
     text-decoration: none;
 }
@@ -67,19 +71,28 @@ body {
         color: black;
     }
 
-    .footer-style a:link {
-        color: black;
-        text-decoration: none;
 
-    }
+ .footer-text {
+    font-size: x-small;
+ }
 
-  .footer-style a:hover {
-    color: white;
-    text-decoration: none;
+.home-link a {
+    color:black;
+}
 
+.home-link a:hover {
+    color:blanchedalmond;
+}
+
+
+  .footer-link {
+    font-size: x-small;
   }
 
+  .footer-link a {
+    color:black;
+  }
 
-  .credits {
-    font-size: x-small;
+  .footer-link a:hover {
+    color:blanchedalmond; !important
   }
