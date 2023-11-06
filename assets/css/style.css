@@ -6,30 +6,36 @@
 
 }
 
+/* styling selected content with the color below */
+
 ::selection {
     background-color: rgb(226, 226, 222);
 }
+
+/* style body */
 
 body {
     margin: 0;
     padding: 0;
     font-size: 1rem;
     background-color: #CFCFCF;
-       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-  
+ /* makes avatar rounded */ 
+
     .avatar {
         border-radius: 50%;
         overflow: hidden;
     }
 
-/*style hero section text*/
+/* style hero section text */
+
 .hero h2, p {
     color:black;
-    text-shadow: ;
 }
 
+/* style text in about me section */
 
 .skills-comment {
     font-size:smaller;
@@ -44,15 +50,21 @@ body {
     text-wrap: wrap;
 }
 
+/* style cards in work section */
+
 .card {
     background-color: transparent;
     border: none;
 }
 
+/* adds shadow around cards */
+
 .card:hover {
     box-shadow: 0 0 50px black;
 
 }
+
+/* style contact me section */
 
 .contact-li {
     display: inline;
@@ -65,7 +77,8 @@ body {
 .contact-section a {
     text-decoration: none;
 }
-    /* footer style */
+    
+/* footer links and text style */
 
     a {
         color: black;
@@ -83,7 +96,6 @@ body {
 .home-link a:hover {
     color:blanchedalmond;
 }
-
 
   .footer-link {
     font-size: x-small;
